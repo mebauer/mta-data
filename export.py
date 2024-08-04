@@ -10,7 +10,7 @@ rows = limit
 offset = 0
 
 api_base = "https://data.ny.gov/resource/uhf3-t34z.csv"
-con = duckdb.connect("subway-trips.db", config={"allow_unsigned_extensions": "true"})
+con = duckdb.connect("subway-trips.db")
 
 while rows == limit:
     
@@ -34,7 +34,7 @@ while rows == limit:
         time.sleep(3)
         
     except Exception as e:
-        with open(export_history, 'w') as file:
+        with open(export_history, 'a') as file:
             file.write(f"Error reading data: {e}\n")
         break
 

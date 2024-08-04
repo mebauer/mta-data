@@ -37,11 +37,3 @@
 2024-08-04 15:43:11, https://data.ny.gov/resource/uhf3-t34z.csv?$limit=3000000&$offset=108000000
 2024-08-04 15:45:18, https://data.ny.gov/resource/uhf3-t34z.csv?$limit=3000000&$offset=111000000
 2024-08-04 15:47:24, https://data.ny.gov/resource/uhf3-t34z.csv?$limit=3000000&$offset=114000000
-2024-08-04 16:11:56,294 - Error setting up database: Catalog Error: Table with name df does not exist!
-Did you mean "pg_am"?
-LINE 3:             SELECT * FROM df WHERE FALSE
-                                  ^
-2024-08-04 16:14:01,312 - Error setting up database: Catalog Error: Table with name df does not exist!
-Did you mean "pg_am"?
-LINE 3:             SELECT * FROM df WHERE FALSE
-                                  ^
