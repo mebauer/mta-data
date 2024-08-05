@@ -7,7 +7,7 @@ export_log = "export-log.txt"
 api_base = "https://data.ny.gov/resource/uhf3-t34z.csv"
 db_file = "subway-trips.db"
 
-limit = 100_000
+limit = 1_000_000
 offset = 0
 
 # Function to log messages
@@ -43,7 +43,7 @@ with duckdb.connect(db_file) as con:
             offset += limit
 
             # Sleep to avoid hitting rate limits
-            time.sleep(3)
+            time.sleep(10)
             
         except Exception as e:
             log_message(f"Error reading data: {e}")
