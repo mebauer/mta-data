@@ -1,0 +1,5 @@
+2024-08-05 12:37:27,Fetching data from: https://data.ny.gov/resource/uhf3-t34z.csv?$limit=100000&$offset=0&$order=:id
+2024-08-05 12:37:53,Fetching data from: https://data.ny.gov/resource/uhf3-t34z.csv?$limit=100000&$offset=100000&$order=:id
+2024-08-05 12:38:17,Fetching data from: https://data.ny.gov/resource/uhf3-t34z.csv?$limit=100000&$offset=200000&$order=:id
+2024-08-05 12:38:36,Fetching data from: https://data.ny.gov/resource/uhf3-t34z.csv?$limit=100000&$offset=300000&$order=:id
+2024-08-05 12:38:59,Fetching data from: https://data.ny.gov/resource/uhf3-t34z.csv?$limit=100000&$offset=400000&$order=:id
