@@ -3,17 +3,17 @@
 Author: Mark Bauer
 
 ![grand-central-destinations.png](figures/grand-central-destinations.png)
-Note: Duplicate destination stations are dropped for the purpose of this figure. Because the dataset is aggregated by day of week and hour of day over a calendar month, it is possible to have multiple destination stations with different hourly averages in the top 20. Please refer to the [subway-trips notebook](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) for more information.
+Note: Duplicate destination stations are dropped for the purpose of this figure (i.e. the highest hourly average per station is selected). Because the dataset is aggregated by day of week and hour of day over a calendar month, it is possible to have multiple destination stations with different hourly averages in the top 20. Please refer to the [subway-trips notebook](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) for more information.
 
 ![grand-central-origins.png](figures/grand-central-origins.png)
-Note: Duplicate destination stations are dropped for the purpose of this figure. Because the dataset is aggregated by day of week and hour of day over a calendar month, it is possible to have multiple destination stations with different hourly averages in the top 20. Please refer to the [subway-trips notebook](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) for more information.
+Note: Duplicate destination stations are dropped for the purpose of this figure (i.e. the highest hourly average per station is selected). Because the dataset is aggregated by day of week and hour of day over a calendar month, it is possible to have multiple destination stations with different hourly averages in the top 20. Please refer to the [subway-trips notebook](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) for more information.
 
 ![fulton-grand-central-may.png](figures/fulton-grand-central-may.png)
 
 ![grand-central-yankees-august.png](figures/grand-central-yankees-august.png)
 
 # 1. Introduction
-Quick description about the dataset from the data dictionary:
+Brief description about the dataset from the data dictionary:
 >This dataset provides an estimate of subway travel patterns based on scaled-up OMNY and MetroCard
 return tap and swipe data for 2023. It will provide estimated passenger volumes for all populated origindestination (OD) pairs aggregated by month, day of the week, and hour of day. It also provides the
 name, ID, and approximate latitude and longitude of the origin and destination subway complexes.
