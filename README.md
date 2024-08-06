@@ -34,7 +34,7 @@ Source: [Introducing the Subway Origin-Destination Ridership dataset](https://ne
 
 # 2. Code 
 - The code to produce the figures is located in the [subway-trips.ipynb](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) notebook.
-- The [data-exporter.py](https://github.com/mebauer/mta-data/blob/main/data-exporter.py) Python file contains the code to export the data. 
+- The [data-exporter.py](https://github.com/mebauer/mta-data/blob/main/data-exporter.py) Python file demonstrates how to export the data. 
 
 # 3. Data
 The *MTA Subway Origin-Destination Ridership Estimate: 2023* data was retrieved from the [New York Open Data Portal](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/uhf3-t34z/about_data).
