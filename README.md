@@ -2,13 +2,14 @@
 
 Author: Mark Bauer
 
-![grand-central-destinations.png](figures/grand-central-destinations.png)
-Note: Duplicate destination stations are dropped for the purpose of this figure (i.e. the highest hourly average per station is selected). Because the dataset is aggregated by day of week and hour of day over a calendar month, it is possible to have the same destination station with different hourly averages in the top 20. Please refer to the [subway-trips notebook](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) for more information.
+![grand-central-origin.png](figures/grand-central-origin.png)
+Note: Duplicate destination stations are dropped for the purpose of this figure (i.e. the highest hourly average per station is selected). Because the dataset is aggregated by day of week and hour of day over a calendar month, it is possible to have the same destination station with different hourly averages in the top 20. Same applies to the figure below. Please refer to the [subway-trips notebook](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) for more information. 
 
-![grand-central-origins.png](figures/grand-central-origins.png)
-Note: Duplicate destination stations are dropped for the purpose of this figure (i.e. the highest hourly average per station is selected). Because the dataset is aggregated by day of week and hour of day over a calendar month, it is possible to have the same destination station with different hourly averages in the top 20. Please refer to the [subway-trips notebook](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) for more information.
+![grand-central-saturday-june.png](figures/grand-central-saturday-june.png)
 
-![fulton-grand-central-may.png](figures/fulton-grand-central-may.png)
+![grand-central-destination-saturday-june.png](figures/grand-central-destination-saturday-june.png)
+
+![fulton-grand-central-june.png](figures/fulton-grand-central-june.png)
 
 ![grand-central-yankees-august.png](figures/grand-central-yankees-august.png)
 
