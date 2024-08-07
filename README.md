@@ -7,8 +7,6 @@ Note: Duplicate destination stations are dropped for the purpose of this figure 
 
 ![grand-central-saturday-june.png](figures/grand-central-saturday-june.png)
 
-![grand-central-destination-saturday-june.png](figures/grand-central-destination-saturday-june.png)
-
 ![fulton-grand-central-june.png](figures/fulton-grand-central-june.png)
 
 ![grand-central-yankees-august.png](figures/grand-central-yankees-august.png)
