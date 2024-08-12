@@ -7,9 +7,11 @@ Note: Duplicate destination stations are dropped for the purpose of this figure 
 
 ![grand-central-origin-weekends.png](figures/grand-central-origin-weekends.png)
 
-![fulton-grand-central-june.png](figures/fulton-grand-central-june.png)
+![fulton-street-june.png](figures/fulton-street-june.png)
 
-![grand-central-yankees-june.png](figures/grand-central-yankees-june.png)
+![yankees-june.png](figures/yankees-june.png)
+
+![williamsburg-june.png](figures/williamsburg-june.png)
 
 # 1. Introduction
 Brief description about the dataset from the data dictionary:
