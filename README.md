@@ -7,7 +7,7 @@ Author: Mark Bauer
    * [2. Code](#2-Code)
    * [3. Data](#3-Data)
    * [4. Additional Resources](#4-Additional-Resources)
-   * [5. Media](5-Media)
+   * [5. Media](#5-Media)
    * [6. Say Hello!](#6-Say-Hello)
    * [7. Appendix: Tables](#7-Appendix-Tables)
    
@@ -64,7 +64,7 @@ Source: [Introducing the Subway Origin-Destination Ridership dataset](https://ne
 - The [data-exporter.py](https://github.com/mebauer/mta-data/blob/main/data-exporter.py) Python file demonstrates how to export the data. 
 
 # 3. Data
-The *MTA Subway Origin-Destination Ridership Estimate: 2023* data was retrieved from the [New York Open Data Portal](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/uhf3-t34z/about_data).
+The [MTA Subway Origin-Destination Ridership Estimate: 2023](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/uhf3-t34z/about_data) data was retrieved from the [New York Open Data Portal](https://data.ny.gov/).
 
 # 4. Additional Resources
 From the MTA:
@@ -84,6 +84,7 @@ Nerdy Wikipedia Links:
 # 5. Media
 
 MTA's [LinkedIn post](https://www.linkedin.com/posts/nymta_have-you-ever-wondered-where-everyone-riding-activity-7225123353517326336-6PIQ/?utm_source=share&utm_medium=member_desktop) about the dataset:
+
 ![mta-dataset-media.png](images/mta-dataset-media.png)
 
 
