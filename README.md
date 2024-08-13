@@ -49,6 +49,7 @@ Feel free to reach out.
 - GitHub: [mebauer](https://github.com/mebauer)
 
 # 5. Appendix
+## Tables
 
 | origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
 |:--------------------------------|:-----------------------------------|------------------------------:|--------:|:--------------|--------------:|
@@ -74,6 +75,7 @@ Feel free to reach out.
 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1324.13 |       8 | Wednesday     |             8 |
 
 Table xx: Top 20 Highest Estimated Average Hourly Ridership for 2023. Most of these trips are from Grand Central Station to Fulton Street Station on Tuesdays and Wednesdays at 8AM.
+
 
 
 | origin_station_complex_name                      | destination_station_complex_name                 |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
@@ -102,6 +104,7 @@ Table xx: Top 20 Highest Estimated Average Hourly Ridership for 2023. Most of th
 Table xx. Top 20 Highest Estimated Average Hourly Ridership on Saturdays and Sundays for 2023. A significant portion of the highest ridership figures can be attributed to Yankees games at 161st St-Yankee Stadium.
 
 
+
 |   month | origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership | day_of_week   |   hour_of_day |
 |--------:|:--------------------------------|:-----------------------------------|------------------------------:|:--------------|--------------:|
 |       1 | 34 St-Penn Station (A,C,E)      | 5 Av/53 St (E,M)                   |                       1437.02 | Tuesday       |             8 |
@@ -120,6 +123,7 @@ Table xx. Top 20 Highest Estimated Average Hourly Ridership on Saturdays and Sun
 Table xx. Highest Estimated Average Hourly Ridership per Month for 2023. With the exception of January, where the route from 34th Street Penn Station to 5th Avenue/53rd Street ranks first, all other months show the highest ridership on the route from Grand Central Station to Fulton Street Station.
 
 
+
 | day_of_week   | origin_station_complex_name                      | destination_station_complex_name                 |   estimated_average_ridership |   month |   hour_of_day |
 |:--------------|:-------------------------------------------------|:-------------------------------------------------|------------------------------:|--------:|--------------:|
 | Monday        | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                       942.466 |      11 |             8 |
@@ -131,6 +135,7 @@ Table xx. Highest Estimated Average Hourly Ridership per Month for 2023. With th
 | Sunday        | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       355.574 |       5 |            16 |
 
 Table xx. Highest Estimated Average Hourly Ridership per Day of Week for 2023.
+
 
 
 |   hour_of_day | origin_station_complex_name                      | destination_station_complex_name                        |   estimated_average_ridership |   month | day_of_week   |
