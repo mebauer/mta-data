@@ -13,13 +13,13 @@ Author: Mark Bauer
    
 ## Peak Travel Times and Trends
 ![hour-dayofweek.png](figures/hour-dayofweek.png)
-Figure xx: Estimated Average Hourly Ridership by Hour of Day and Day of Week for 2023. The figure displays the average hourly ridership across all trips and months, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
+Figure xx: Estimated Average Hourly Origin-Destination Ridership by Hour of Day and Day of Week for 2023. The figure displays the average hourly ridership across all trips and months, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
 
 ![hour-weekends.png](figures/hour-weekends.png)
-Figure xx: Estimated Average Hourly Ridership by Hour of Day and Weekday/Weekend for 2023. The figure displays the average hourly ridership across all trips, months and days of the week, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
+Figure xx: Estimated Average Hourly Origin-Destination Ridership by Hour of Day and Weekday/Weekend for 2023. The figure displays the average hourly ridership across all trips, months and days of the week, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
 
 ![hour-month.png](figures/hour-month.png)
-Figure xx: Estimated Average Hourly Ridership by Hour of Day and Month for 2023. The figure displays the average hourly ridership across all trips and days of the week, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
+Figure xx: Estimated Average Hourly Origin-Destination Ridership by Hour of Day and Month for 2023. The figure displays the average hourly ridership across all trips and days of the week, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
 
 ## Origin-Destination Pair Analysis
 ![grand-central-origin.png](figures/grand-central-origin.png)
@@ -43,7 +43,7 @@ Brief description about the dataset from the data dictionary:
 return tap and swipe data for 2023. It will provide estimated passenger volumes for all populated origindestination (OD) pairs aggregated by month, day of the week, and hour of day. It also provides the
 name, ID, and approximate latitude and longitude of the origin and destination subway complexes.
 
-Additionally, the MTA wrote an article introducing the dataset that I've found useful and informative. In particular, how the dataset is aggregated. For example: **The format of this aggregated dataset allows users to understand for “an average 9 a.m. hour during the month of May,” roughly how many people travelled between two subway complexes.**
+Additionally, the MTA wrote an article introducing the dataset that I've found useful and informative. In particular, how the dataset is aggregated. For example: *The format of this aggregated dataset allows users to understand for “an average 9 a.m. hour during the month of May,” roughly how many people travelled between two subway complexes.*
 > **About the data**  
 Let’s talk a bit more about the data. This dataset is based off of the ‘Destination Inference’ step of our ridership model, which we detailed in a [previous blog post](https://new.mta.info/article/where-everybody-subway-going). As that post outlines, the basis of this model is the assumption that a subway trip’s destination is the station the rider next swipes/taps at. If a MetroCard swipes into Bowling Green at 9:15 a.m., and then that same MetroCard swipes into the 103 St stop in East Harlem later that afternoon, we make the imperfect (but pretty good) inference that this 9:15 a.m. trip traveled from Bowling Green to 103 St. These “linked trips” are what form the basis of our understanding of how riders travel across the system (Note 1).
 >
@@ -60,7 +60,7 @@ Source: [Introducing the Subway Origin-Destination Ridership dataset](https://ne
 
 
 # 2. Code 
-- The code to produce the figures is located in the [subway-trips.ipynb](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) notebook.
+- The code to produce the figures and tables is located in the [subway-trips.ipynb](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) notebook.
 - The [data-exporter.py](https://github.com/mebauer/mta-data/blob/main/data-exporter.py) Python file demonstrates how to export the data.
 
 Downloading the data involves two main steps:
