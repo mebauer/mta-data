@@ -7,7 +7,7 @@ Author: Mark Bauer
    * [2. Code](#2-Code)
    * [3. Data](#3-Data)
    * [4. Say Hello!](#4-Say-Hello)
-   * [5. Appendix](#5-Appendix)
+   * [5. Appendix: Tables](#5-Appendix-Tables)
    
 ## Peak Travel Times and Trends
 ![hour-dayofweek.png](figures/hour-dayofweek.png)
@@ -70,8 +70,7 @@ Feel free to reach out.
 - Portfolio: [mebauer.github.io](https://mebauer.github.io/)
 - GitHub: [mebauer](https://github.com/mebauer)
 
-# 5. Appendix
-## Tables
+# 5. Appendix: Tables
 
 | origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
 |:--------------------------------|:-----------------------------------|------------------------------:|--------:|:--------------|--------------:|
