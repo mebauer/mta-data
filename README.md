@@ -1,30 +1,39 @@
 # MTA Subway Origin-Destination Ridership Estimate 2023
-
 Author: Mark Bauer
 
+# Table of Contents
+
+   * [1. Introduction](#1-Introduction)
+   * [2. Code](#2-Code)
+   * [3. Data](#3-Data)
+   * [4. Say Hello!](#4-Say-Hello)
+   * [5. Appendix](#5-Appendix)
+   
+## Peak Travel Times and Trends
 ![hour-dayofweek.png](figures/hour-dayofweek.png)
-Figure xx:
+Figure xx: Estimated Average Hourly Ridership by Hour of Day and Day of Week for 2023. The figure displays the average hourly ridership across all trips and months. The error bands represent the 95% confidence interval, illustrating the variability in estimated ridership. Hourly ridership values below 25 have been excluded from the display.
 
 ![hour-weekends.png](figures/hour-weekends.png)
-Figure xx:
+Figure xx: Estimated Average Hourly Ridership by Hour of Day and Weekday/Weekend for 2023. The figure displays the average hourly ridership across all trips, months and days of the week. The error bands represent the 95% confidence interval, illustrating the variability in estimated ridership. Hourly ridership values below 25 have been excluded from the display.
 
 ![hour-month.png](figures/hour-month.png)
-Figure xx:
+Figure xx: Estimated Average Hourly Ridership by Hour of Day and Month for 2023. The figure displays the average hourly ridership across all trips and days of the week. The error bands represent the 95% confidence interval, illustrating the variability in estimated ridership. Hourly ridership values below 25 have been excluded from the display.
 
+## Origin-Destination Pair Analysis
 ![grand-central-origin.png](figures/grand-central-origin.png)
-Figure xx:
+Figure xx: Top 20 Highest Average Hourly Ridership Destinations from the Grand Central Station in 2023. Note: These are unique destinations.
 
 ![grand-central-origin-weekends.png](figures/grand-central-origin-weekends.png)
-Figure xx:
+Figure xx: Top 20 Highest Average Hourly Ridership DDestinations on Saturday and Sunday from Grand Central Station in 2023. Note: These are unique destinations.
 
 ![fulton-street-june.png](figures/fulton-street-june.png)
-Figure xx:
+Figure xx: Estimated Average Hourly Ridership from Grand Central Station to Fulton Street Station for June 2023.
 
 ![yankees-june.png](figures/yankees-june.png)
-Figure xx:
+Figure xx: Estimated Average Hourly Ridership from Grand Central Station to Yakee Stadium Stadium for June 2023.
 
 ![williamsburg-june.png](figures/williamsburg-june.png)
-Figure xx:
+Figure xx: Estimated Average Hourly Ridership from 14 St-Union Sq to Bedford Av Williamsburg for June 2023.
 
 # 1. Introduction
 Brief description about the dataset from the data dictionary:
