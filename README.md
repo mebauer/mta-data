@@ -50,115 +50,115 @@ Feel free to reach out.
 
 # 5. Appendix
 
-|    | origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
-|---:|:--------------------------------|:-----------------------------------|------------------------------:|--------:|:--------------|--------------:|
-|  0 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1634.14 |       9 | Tuesday       |             8 |
-|  1 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1611    |       9 | Wednesday     |             8 |
-|  2 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1562.5  |      10 | Wednesday     |             8 |
-|  3 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1535.44 |      10 | Tuesday       |             8 |
-|  4 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1480.53 |       6 | Tuesday       |             8 |
-|  5 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1466.44 |       7 | Wednesday     |             8 |
-|  6 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1456.59 |       6 | Wednesday     |             8 |
-|  7 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1456.32 |       5 | Tuesday       |             8 |
-|  8 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1444.68 |       8 | Tuesday       |             8 |
-|  9 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1444.02 |      11 | Tuesday       |             8 |
-| 10 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1438.31 |       5 | Wednesday     |             8 |
-| 11 | 34 St-Penn Station (A,C,E)      | 5 Av/53 St (E,M)                   |                       1437.02 |       1 | Tuesday       |             8 |
-| 12 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1404.19 |       3 | Wednesday     |             8 |
-| 13 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1393.56 |       4 | Tuesday       |             8 |
-| 14 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1367.46 |       9 | Thursday      |             8 |
-| 15 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1348.3  |      10 | Thursday      |             8 |
-| 16 | Fulton St (A,C,J,Z,2,3,4,5)     | Grand Central-42 St (S,4,5,6,7)    |                       1343.42 |       9 | Tuesday       |            17 |
-| 17 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1334.8  |      11 | Wednesday     |             8 |
-| 18 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1328.39 |       1 | Tuesday       |             8 |
-| 19 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1324.13 |       8 | Wednesday     |             8 |
+| origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
+|:--------------------------------|:-----------------------------------|------------------------------:|--------:|:--------------|--------------:|
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1634.14 |       9 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1611    |       9 | Wednesday     |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1562.5  |      10 | Wednesday     |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1535.44 |      10 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1480.53 |       6 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1466.44 |       7 | Wednesday     |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1456.59 |       6 | Wednesday     |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1456.32 |       5 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1444.68 |       8 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1444.02 |      11 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1438.31 |       5 | Wednesday     |             8 |
+| 34 St-Penn Station (A,C,E)      | 5 Av/53 St (E,M)                   |                       1437.02 |       1 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1404.19 |       3 | Wednesday     |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1393.56 |       4 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1367.46 |       9 | Thursday      |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1348.3  |      10 | Thursday      |             8 |
+| Fulton St (A,C,J,Z,2,3,4,5)     | Grand Central-42 St (S,4,5,6,7)    |                       1343.42 |       9 | Tuesday       |            17 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1334.8  |      11 | Wednesday     |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1328.39 |       1 | Tuesday       |             8 |
+| Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1324.13 |       8 | Wednesday     |             8 |
 
 Table xx: Top 20 Highest Estimated Average Hourly Ridership for 2023. Most of these trips are from Grand Central Station to Fulton Street Station on Tuesdays and Wednesdays at 8AM.
 
 
-|    | origin_station_complex_name                      | destination_station_complex_name                 |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
-|---:|:-------------------------------------------------|:-------------------------------------------------|------------------------------:|--------:|:--------------|--------------:|
-|  0 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       355.574 |       5 | Sunday        |            16 |
-|  1 | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       322.311 |      12 | Saturday      |            16 |
-|  2 | 161 St-Yankee Stadium (B,D,4)                    | Grand Central-42 St (S,4,5,6,7)                  |                       311.788 |       8 | Saturday      |            23 |
-|  3 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       307.082 |       8 | Sunday        |            17 |
-|  4 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       297.767 |      12 | Saturday      |            13 |
-|  5 | 161 St-Yankee Stadium (B,D,4)                    | Grand Central-42 St (S,4,5,6,7)                  |                       293.471 |       8 | Saturday      |            15 |
-|  6 | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Bedford Av (L)                                   |                       291.528 |       4 | Saturday      |            15 |
-|  7 | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Bedford Av (L)                                   |                       291.373 |       4 | Saturday      |            14 |
-|  8 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       290.865 |      12 | Saturday      |            12 |
-|  9 | 161 St-Yankee Stadium (B,D,4)                    | Grand Central-42 St (S,4,5,6,7)                  |                       286.185 |       5 | Sunday        |            16 |
-| 10 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       285.73  |       4 | Sunday        |            16 |
-| 11 | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Bedford Av (L)                                   |                       282.76  |       4 | Saturday      |            13 |
-| 12 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       281.962 |      12 | Saturday      |            14 |
-| 13 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       281.092 |      12 | Saturday      |            17 |
-| 14 | WTC Cortlandt (1)                                | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       278.544 |      12 | Saturday      |            17 |
-| 15 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       274.554 |      12 | Saturday      |            11 |
-| 16 | 34 St-Herald Sq (B,D,F,M,N,Q,R,W)                | 161 St-Yankee Stadium (B,D,4)                    |                       273.866 |       4 | Sunday        |            12 |
-| 17 | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       273.861 |      12 | Saturday      |            15 |
-| 18 | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Grand Central-42 St (S,4,5,6,7)                  |                       272.715 |      12 | Saturday      |            16 |
-| 19 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       269.068 |       8 | Saturday      |            15 |
+| origin_station_complex_name                      | destination_station_complex_name                 |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
+|:-------------------------------------------------|:-------------------------------------------------|------------------------------:|--------:|:--------------|--------------:|
+| 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       355.574 |       5 | Sunday        |            16 |
+| Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       322.311 |      12 | Saturday      |            16 |
+| 161 St-Yankee Stadium (B,D,4)                    | Grand Central-42 St (S,4,5,6,7)                  |                       311.788 |       8 | Saturday      |            23 |
+| 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       307.082 |       8 | Sunday        |            17 |
+| Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       297.767 |      12 | Saturday      |            13 |
+| 161 St-Yankee Stadium (B,D,4)                    | Grand Central-42 St (S,4,5,6,7)                  |                       293.471 |       8 | Saturday      |            15 |
+| 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Bedford Av (L)                                   |                       291.528 |       4 | Saturday      |            15 |
+| 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Bedford Av (L)                                   |                       291.373 |       4 | Saturday      |            14 |
+| Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       290.865 |      12 | Saturday      |            12 |
+| 161 St-Yankee Stadium (B,D,4)                    | Grand Central-42 St (S,4,5,6,7)                  |                       286.185 |       5 | Sunday        |            16 |
+| 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       285.73  |       4 | Sunday        |            16 |
+| 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Bedford Av (L)                                   |                       282.76  |       4 | Saturday      |            13 |
+| Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       281.962 |      12 | Saturday      |            14 |
+| Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       281.092 |      12 | Saturday      |            17 |
+| WTC Cortlandt (1)                                | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       278.544 |      12 | Saturday      |            17 |
+| Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       274.554 |      12 | Saturday      |            11 |
+| 34 St-Herald Sq (B,D,F,M,N,Q,R,W)                | 161 St-Yankee Stadium (B,D,4)                    |                       273.866 |       4 | Sunday        |            12 |
+| 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       273.861 |      12 | Saturday      |            15 |
+| 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Grand Central-42 St (S,4,5,6,7)                  |                       272.715 |      12 | Saturday      |            16 |
+| 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       269.068 |       8 | Saturday      |            15 |
 
 Table xx. Top 20 Highest Estimated Average Hourly Ridership on Saturdays and Sundays for 2023. A significant portion of the highest ridership figures can be attributed to Yankees games at 161st St-Yankee Stadium.
 
 
-|    |   month | origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership | day_of_week   |   hour_of_day |
-|---:|--------:|:--------------------------------|:-----------------------------------|------------------------------:|:--------------|--------------:|
-|  0 |       1 | 34 St-Penn Station (A,C,E)      | 5 Av/53 St (E,M)                   |                       1437.02 | Tuesday       |             8 |
-|  1 |       2 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1281.41 | Wednesday     |             8 |
-|  2 |       3 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1404.19 | Wednesday     |             8 |
-|  3 |       4 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1393.56 | Tuesday       |             8 |
-|  4 |       5 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1456.32 | Tuesday       |             8 |
-|  5 |       6 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1480.53 | Tuesday       |             8 |
-|  6 |       7 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1466.44 | Wednesday     |             8 |
-|  7 |       8 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1444.68 | Tuesday       |             8 |
-|  8 |       9 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1634.14 | Tuesday       |             8 |
-|  9 |      10 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1562.5  | Wednesday     |             8 |
-| 10 |      11 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1444.02 | Tuesday       |             8 |
-| 11 |      12 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1130.8  | Tuesday       |             8 |
+|   month | origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership | day_of_week   |   hour_of_day |
+|--------:|:--------------------------------|:-----------------------------------|------------------------------:|:--------------|--------------:|
+|       1 | 34 St-Penn Station (A,C,E)      | 5 Av/53 St (E,M)                   |                       1437.02 | Tuesday       |             8 |
+|       2 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1281.41 | Wednesday     |             8 |
+|       3 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1404.19 | Wednesday     |             8 |
+|       4 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1393.56 | Tuesday       |             8 |
+|       5 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1456.32 | Tuesday       |             8 |
+|       6 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1480.53 | Tuesday       |             8 |
+|       7 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1466.44 | Wednesday     |             8 |
+|       8 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1444.68 | Tuesday       |             8 |
+|       9 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1634.14 | Tuesday       |             8 |
+|      10 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1562.5  | Wednesday     |             8 |
+|      11 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1444.02 | Tuesday       |             8 |
+|      12 | Grand Central-42 St (S,4,5,6,7) | Fulton St (A,C,J,Z,2,3,4,5)        |                       1130.8  | Tuesday       |             8 |
 
 Table xx. Highest Estimated Average Hourly Ridership per Month for 2023. With the exception of January, where the route from 34th Street Penn Station to 5th Avenue/53rd Street ranks first, all other months show the highest ridership on the route from Grand Central Station to Fulton Street Station.
 
 
-|    | day_of_week   | origin_station_complex_name                      | destination_station_complex_name                 |   estimated_average_ridership |   month |   hour_of_day |
-|---:|:--------------|:-------------------------------------------------|:-------------------------------------------------|------------------------------:|--------:|--------------:|
-|  0 | Monday        | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                       942.466 |      11 |             8 |
-|  1 | Tuesday       | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                      1634.14  |       9 |             8 |
-|  2 | Wednesday     | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                      1611     |       9 |             8 |
-|  3 | Thursday      | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                      1367.46  |       9 |             8 |
-|  4 | Friday        | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       524.801 |       7 |            21 |
-|  5 | Saturday      | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       322.311 |      12 |            16 |
-|  6 | Sunday        | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       355.574 |       5 |            16 |
+| day_of_week   | origin_station_complex_name                      | destination_station_complex_name                 |   estimated_average_ridership |   month |   hour_of_day |
+|:--------------|:-------------------------------------------------|:-------------------------------------------------|------------------------------:|--------:|--------------:|
+| Monday        | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                       942.466 |      11 |             8 |
+| Tuesday       | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                      1634.14  |       9 |             8 |
+| Wednesday     | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                      1611     |       9 |             8 |
+| Thursday      | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                      1367.46  |       9 |             8 |
+| Friday        | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       524.801 |       7 |            21 |
+| Saturday      | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 |                       322.311 |      12 |            16 |
+| Sunday        | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       355.574 |       5 |            16 |
 
 Table xx. Highest Estimated Average Hourly Ridership per Day of Week for 2023.
 
 
-|    |   hour_of_day | origin_station_complex_name                      | destination_station_complex_name                        |   estimated_average_ridership |   month | day_of_week   |
-|---:|--------------:|:-------------------------------------------------|:--------------------------------------------------------|------------------------------:|--------:|:--------------|
-|  0 |             0 | Mets-Willets Point (7)                           | Grand Central-42 St (S,4,5,6,7)                         |                      110.957  |       9 | Sunday        |
-|  1 |             1 | Mets-Willets Point (7)                           | Flushing-Main St (7)                                    |                       80.0948 |       6 | Saturday      |
-|  2 |             2 | W 4 St-Wash Sq (A,C,E,B,D,F,M)                   | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)        |                       36.4235 |       6 | Saturday      |
-|  3 |             3 | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) | 74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)      |                       17.2865 |       9 | Sunday        |
-|  4 |             4 | 103 St-Corona Plaza (7)                          | 74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)      |                       48.3472 |      12 | Friday        |
-|  5 |             5 | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) | Chambers St (A,C)/WTC (E)/Park Pl (2,3)/Cortlandt (R,W) |                       99.473  |      12 | Wednesday     |
-|  6 |             6 | 34 St-Penn Station (1,2,3)                       | Grand Central-42 St (S,4,5,6,7)                         |                      329.086  |       1 | Tuesday       |
-|  7 |             7 | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                             |                      902.171  |      10 | Tuesday       |
-|  8 |             8 | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                             |                     1634.14   |       9 | Tuesday       |
-|  9 |             9 | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                             |                      735.489  |      10 | Tuesday       |
-| 10 |            10 | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                             |                      286.447  |      10 | Thursday      |
-| 11 |            11 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                        |                      274.554  |      12 | Saturday      |
-| 12 |            12 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                        |                      290.865  |      12 | Saturday      |
-| 13 |            13 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                        |                      297.767  |      12 | Saturday      |
-| 14 |            14 | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Bedford Av (L)                                          |                      291.373  |       4 | Saturday      |
-| 15 |            15 | Fulton St (A,C,J,Z,2,3,4,5)                      | Grand Central-42 St (S,4,5,6,7)                         |                      349.491  |      10 | Thursday      |
-| 16 |            16 | Fulton St (A,C,J,Z,2,3,4,5)                      | Grand Central-42 St (S,4,5,6,7)                         |                      779.982  |       9 | Tuesday       |
-| 17 |            17 | Fulton St (A,C,J,Z,2,3,4,5)                      | Grand Central-42 St (S,4,5,6,7)                         |                     1343.42   |       9 | Tuesday       |
-| 18 |            18 | Fulton St (A,C,J,Z,2,3,4,5)                      | Grand Central-42 St (S,4,5,6,7)                         |                      640.239  |       9 | Tuesday       |
-| 19 |            19 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                        |                      311.075  |      10 | Tuesday       |
-| 20 |            20 | Flushing-Main St (7)                             | 103 St-Corona Plaza (7)                                 |                      213.404  |       5 | Friday        |
-| 21 |            21 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)        |                      524.801  |       7 | Friday        |
-| 22 |            22 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)        |                      374.555  |       8 | Friday        |
-| 23 |            23 | 161 St-Yankee Stadium (B,D,4)                    | Grand Central-42 St (S,4,5,6,7)                         |                      311.788  |       8 | Saturday      |
+|   hour_of_day | origin_station_complex_name                      | destination_station_complex_name                        |   estimated_average_ridership |   month | day_of_week   |
+|--------------:|:-------------------------------------------------|:--------------------------------------------------------|------------------------------:|--------:|:--------------|
+|             0 | Mets-Willets Point (7)                           | Grand Central-42 St (S,4,5,6,7)                         |                      110.957  |       9 | Sunday        |
+|             1 | Mets-Willets Point (7)                           | Flushing-Main St (7)                                    |                       80.0948 |       6 | Saturday      |
+|             2 | W 4 St-Wash Sq (A,C,E,B,D,F,M)                   | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)        |                       36.4235 |       6 | Saturday      |
+|             3 | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) | 74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)      |                       17.2865 |       9 | Sunday        |
+|             4 | 103 St-Corona Plaza (7)                          | 74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)      |                       48.3472 |      12 | Friday        |
+|             5 | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) | Chambers St (A,C)/WTC (E)/Park Pl (2,3)/Cortlandt (R,W) |                       99.473  |      12 | Wednesday     |
+|             6 | 34 St-Penn Station (1,2,3)                       | Grand Central-42 St (S,4,5,6,7)                         |                      329.086  |       1 | Tuesday       |
+|             7 | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                             |                      902.171  |      10 | Tuesday       |
+|             8 | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                             |                     1634.14   |       9 | Tuesday       |
+|             9 | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                             |                      735.489  |      10 | Tuesday       |
+|            10 | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                             |                      286.447  |      10 | Thursday      |
+|            11 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                        |                      274.554  |      12 | Saturday      |
+|            12 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                        |                      290.865  |      12 | Saturday      |
+|            13 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                        |                      297.767  |      12 | Saturday      |
+|            14 | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                 | Bedford Av (L)                                          |                      291.373  |       4 | Saturday      |
+|            15 | Fulton St (A,C,J,Z,2,3,4,5)                      | Grand Central-42 St (S,4,5,6,7)                         |                      349.491  |      10 | Thursday      |
+|            16 | Fulton St (A,C,J,Z,2,3,4,5)                      | Grand Central-42 St (S,4,5,6,7)                         |                      779.982  |       9 | Tuesday       |
+|            17 | Fulton St (A,C,J,Z,2,3,4,5)                      | Grand Central-42 St (S,4,5,6,7)                         |                     1343.42   |       9 | Tuesday       |
+|            18 | Fulton St (A,C,J,Z,2,3,4,5)                      | Grand Central-42 St (S,4,5,6,7)                         |                      640.239  |       9 | Tuesday       |
+|            19 | Grand Central-42 St (S,4,5,6,7)                  | 14 St-Union Sq (L,N,Q,R,W,4,5,6)                        |                      311.075  |      10 | Tuesday       |
+|            20 | Flushing-Main St (7)                             | 103 St-Corona Plaza (7)                                 |                      213.404  |       5 | Friday        |
+|            21 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)        |                      524.801  |       7 | Friday        |
+|            22 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)        |                      374.555  |       8 | Friday        |
+|            23 | 161 St-Yankee Stadium (B,D,4)                    | Grand Central-42 St (S,4,5,6,7)                         |                      311.788  |       8 | Saturday      |
 
 Table xx. Highest Estimated Average Hourly Ridership per Hour of Day for 2023.
 
