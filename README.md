@@ -1,4 +1,4 @@
-# MTA Subway Origin-Destination Ridership Estimate 2023
+# MTA Subway Origin-Destination Ridership Estimate for 2023
 Author: Mark Bauer
 
 # Table of Contents
@@ -6,18 +6,20 @@ Author: Mark Bauer
    * [1. Introduction](#1-Introduction)
    * [2. Code](#2-Code)
    * [3. Data](#3-Data)
-   * [4. Say Hello!](#4-Say-Hello)
-   * [5. Appendix: Tables](#5-Appendix-Tables)
+   * [4. Additional Resources](#4-Additional-Resources)
+   * [5. Media](5-Media)
+   * [6. Say Hello!](#6-Say-Hello)
+   * [7. Appendix: Tables](#7-Appendix-Tables)
    
 ## Peak Travel Times and Trends
 ![hour-dayofweek.png](figures/hour-dayofweek.png)
-Figure xx: Estimated Average Hourly Ridership by Hour of Day and Day of Week for 2023. The figure displays the average hourly ridership across all trips and months. The error bands represent the 95% confidence interval, illustrating the variability in estimated ridership. Hourly ridership values below 25 have been excluded from the display.
+Figure xx: Estimated Average Hourly Ridership by Hour of Day and Day of Week for 2023. The figure displays the average hourly ridership across all trips and months, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
 
 ![hour-weekends.png](figures/hour-weekends.png)
-Figure xx: Estimated Average Hourly Ridership by Hour of Day and Weekday/Weekend for 2023. The figure displays the average hourly ridership across all trips, months and days of the week. The error bands represent the 95% confidence interval, illustrating the variability in estimated ridership. Hourly ridership values below 25 have been excluded from the display.
+Figure xx: Estimated Average Hourly Ridership by Hour of Day and Weekday/Weekend for 2023. The figure displays the average hourly ridership across all trips, months and days of the week, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
 
 ![hour-month.png](figures/hour-month.png)
-Figure xx: Estimated Average Hourly Ridership by Hour of Day and Month for 2023. The figure displays the average hourly ridership across all trips and days of the week. The error bands represent the 95% confidence interval, illustrating the variability in estimated ridership. Hourly ridership values below 25 have been excluded from the display.
+Figure xx: Estimated Average Hourly Ridership by Hour of Day and Month for 2023. The figure displays the average hourly ridership across all trips and days of the week, and the error bands represent the 95% confidence interval. Hourly ridership values below 25 have been excluded from the display.
 
 ## Origin-Destination Pair Analysis
 ![grand-central-origin.png](figures/grand-central-origin.png)
@@ -64,13 +66,34 @@ Source: [Introducing the Subway Origin-Destination Ridership dataset](https://ne
 # 3. Data
 The *MTA Subway Origin-Destination Ridership Estimate: 2023* data was retrieved from the [New York Open Data Portal](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/uhf3-t34z/about_data).
 
-# 4. Say Hello!
+# 4. Additional Resources
+From the MTA:
+- [Where is everybody on the subway going?](https://new.mta.info/article/where-everybody-subway-going)
+- [MTA Data and Analytics Blog](https://new.mta.info/taxonomy/term/11621)
+
+Yearly Ridership Recap:
+- [Subway and bus ridership for 2023](https://new.mta.info/agency/new-york-city-transit/subway-bus-ridership-2023)
+- [Subway and bus ridership for 2022](https://new.mta.info/agency/new-york-city-transit/subway-bus-ridership-2022)
+- [Subway and bus ridership for 2021](https://new.mta.info/agency/new-york-city-transit/subway-bus-ridership-2021)
+
+Nerdy Wikipedia Links:
+- [New York City Subway](https://en.wikipedia.org/wiki/New_York_City_Subway)
+- [History of the New York City Subway](https://en.wikipedia.org/wiki/History_of_the_New_York_City_Subway)
+- [Technology of the New York City Subway](https://en.wikipedia.org/wiki/Technology_of_the_New_York_City_Subway)
+
+# 5. Media
+
+MTA's [LinkedIn post](https://www.linkedin.com/posts/nymta_have-you-ever-wondered-where-everyone-riding-activity-7225123353517326336-6PIQ/?utm_source=share&utm_medium=member_desktop) about the dataset:
+![mta-dataset-media.png](images/mta-dataset-media.png)
+
+
+# 6. Say Hello!
 Feel free to reach out.
 - LinkedIn: [markebauer](https://www.linkedin.com/in/markebauer/)   
 - Portfolio: [mebauer.github.io](https://mebauer.github.io/)
 - GitHub: [mebauer](https://github.com/mebauer)
 
-# 5. Appendix: Tables
+# 7. Appendix: Tables
 
 | origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
 |:--------------------------------|:-----------------------------------|------------------------------:|--------:|:--------------|--------------:|
