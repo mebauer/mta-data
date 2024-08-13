@@ -1,17 +1,30 @@
-# MTA Subway Origin-Destination Ridership Estimate: 2023
+# MTA Subway Origin-Destination Ridership Estimate 2023
 
 Author: Mark Bauer
 
+![hour-dayofweek.png](figures/hour-dayofweek.png)
+Figure xx:
+
+![hour-weekends.png](figures/hour-weekends.png)
+Figure xx:
+
+![hour-month.png](figures/hour-month.png)
+Figure xx:
+
 ![grand-central-origin.png](figures/grand-central-origin.png)
-Note: Duplicate destination stations are dropped for the purpose of this figure (i.e. the highest hourly average per station is selected). Because the dataset is aggregated by day of week and hour of day over a calendar month, it is possible to have the same destination station with different days of the week in the top 20. Same applies to the figure below. Please refer to the [subway-trips notebook](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) for more information. 
+Figure xx:
 
 ![grand-central-origin-weekends.png](figures/grand-central-origin-weekends.png)
+Figure xx:
 
 ![fulton-street-june.png](figures/fulton-street-june.png)
+Figure xx:
 
 ![yankees-june.png](figures/yankees-june.png)
+Figure xx:
 
 ![williamsburg-june.png](figures/williamsburg-june.png)
+Figure xx:
 
 # 1. Introduction
 Brief description about the dataset from the data dictionary:
@@ -78,6 +91,7 @@ Table xx: Top 20 Highest Estimated Average Hourly Ridership for 2023. Most of th
 
 
 
+
 | origin_station_complex_name                      | destination_station_complex_name                 |   estimated_average_ridership |   month | day_of_week   |   hour_of_day |
 |:-------------------------------------------------|:-------------------------------------------------|------------------------------:|--------:|:--------------|--------------:|
 | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       355.574 |       5 | Sunday        |            16 |
@@ -105,6 +119,7 @@ Table xx. Top 20 Highest Estimated Average Hourly Ridership on Saturdays and Sun
 
 
 
+
 |   month | origin_station_complex_name     | destination_station_complex_name   |   estimated_average_ridership | day_of_week   |   hour_of_day |
 |--------:|:--------------------------------|:-----------------------------------|------------------------------:|:--------------|--------------:|
 |       1 | 34 St-Penn Station (A,C,E)      | 5 Av/53 St (E,M)                   |                       1437.02 | Tuesday       |             8 |
@@ -124,6 +139,7 @@ Table xx. Highest Estimated Average Hourly Ridership per Month for 2023. With th
 
 
 
+
 | day_of_week   | origin_station_complex_name                      | destination_station_complex_name                 |   estimated_average_ridership |   month |   hour_of_day |
 |:--------------|:-------------------------------------------------|:-------------------------------------------------|------------------------------:|--------:|--------------:|
 | Monday        | Grand Central-42 St (S,4,5,6,7)                  | Fulton St (A,C,J,Z,2,3,4,5)                      |                       942.466 |      11 |             8 |
@@ -135,6 +151,7 @@ Table xx. Highest Estimated Average Hourly Ridership per Month for 2023. With th
 | Sunday        | 161 St-Yankee Stadium (B,D,4)                    | Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E) |                       355.574 |       5 |            16 |
 
 Table xx. Highest Estimated Average Hourly Ridership per Day of Week for 2023.
+
 
 
 
