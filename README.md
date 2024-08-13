@@ -21,10 +21,10 @@ Figure xx: Estimated Average Hourly Ridership by Hour of Day and Month for 2023.
 
 ## Origin-Destination Pair Analysis
 ![grand-central-origin.png](figures/grand-central-origin.png)
-Figure xx: Top 20 Highest Average Hourly Ridership Destinations from the Grand Central Station in 2023. Note: These are unique destinations.
+Figure xx: Top 20 Highest Average Hourly Ridership Destinations from the Grand Central Station in 2023. Note: The highest value per destination was selected.
 
 ![grand-central-origin-weekends.png](figures/grand-central-origin-weekends.png)
-Figure xx: Top 20 Highest Average Hourly Ridership DDestinations on Saturday and Sunday from Grand Central Station in 2023. Note: These are unique destinations.
+Figure xx: Top 20 Highest Average Hourly Ridership Destinations on Saturdays and Sundays from Grand Central Station in 2023. Note: The highest value per destination was selected.
 
 ![fulton-street-june.png](figures/fulton-street-june.png)
 Figure xx: Estimated Average Hourly Ridership from Grand Central Station to Fulton Street Station for June 2023.
