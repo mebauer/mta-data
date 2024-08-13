@@ -40,7 +40,7 @@ Figure xx: Estimated Average Hourly Ridership from 14 St-Union Sq to Bedford Av 
 # 1. Introduction
 Brief description about the dataset from the data dictionary:
 >This dataset provides an estimate of subway travel patterns based on scaled-up OMNY and MetroCard
-return tap and swipe data for 2023. It will provide estimated passenger volumes for all populated origindestination (OD) pairs aggregated by month, day of the week, and hour of day. It also provides the
+return tap and swipe data for 2023. It will provide estimated passenger volumes for all populated origin-destination (OD) pairs aggregated by month, day of the week, and hour of day. It also provides the
 name, ID, and approximate latitude and longitude of the origin and destination subway complexes.
 
 Additionally, the MTA wrote an article introducing the dataset that I've found useful and informative. In particular, how the dataset is aggregated. For example: *The format of this aggregated dataset allows users to understand for “an average 9 a.m. hour during the month of May,” roughly how many people travelled between two subway complexes.*
@@ -101,7 +101,7 @@ with duckdb.connect(db_file) as con:
 The full code can be found in the [data-exporter.py](https://github.com/mebauer/mta-data/blob/main/data-exporter.py) file.
 
 # 3. Data
-The [MTA Subway Origin-Destination Ridership Estimate: 2023](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/uhf3-t34z/about_data) data was retrieved from the [New York Open Data Portal](https://data.ny.gov/). Additionally, make sure to review the [Overview Guide](https://github.com/mebauer/mta-data/blob/main/MTA_SubwayOriginDestinationRidershipEstimate2023_Overview.pdf) and the [Data Dictionairy](https://github.com/mebauer/mta-data/blob/main/MTA_SubwayOriginDestinationRidershipEstimate_DataDictionary.pdf). Both can be found in this repository. The Overview Guide discusses the data collection methodology, statistical and analytical issues, limitations of use, and more.
+The [MTA Subway Origin-Destination Ridership Estimate: 2023](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/uhf3-t34z/about_data) data was retrieved from the [New York Open Data Portal](https://data.ny.gov/). Additionally, make sure to review the [Overview Guide](https://github.com/mebauer/mta-data/blob/main/MTA_SubwayOriginDestinationRidershipEstimate2023_Overview.pdf) and the [Data Dictionairy](https://github.com/mebauer/mta-data/blob/main/MTA_SubwayOriginDestinationRidershipEstimate_DataDictionary.pdf) files. Both can be found in this repository. The Overview Guide discusses the data collection methodology, statistical and analytical issues, limitations of use, and more.
 
 # 4. Additional Resources
 From the MTA:
