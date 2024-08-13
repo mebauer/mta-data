@@ -61,7 +61,45 @@ Source: [Introducing the Subway Origin-Destination Ridership dataset](https://ne
 
 # 2. Code 
 - The code to produce the figures is located in the [subway-trips.ipynb](https://github.com/mebauer/mta-data/blob/main/subway-trips.ipynb) notebook.
-- The [data-exporter.py](https://github.com/mebauer/mta-data/blob/main/data-exporter.py) Python file demonstrates how to export the data. 
+- The [data-exporter.py](https://github.com/mebauer/mta-data/blob/main/data-exporter.py) Python file demonstrates how to export the data.
+
+Downloading the data involves two main steps:
+
+Handling Large Datasets with Pagination: Given that this dataset comprises 116 million rows, downloading it directly to your local machine can be challenging, even for experienced users. To efficiently manage this, I've used the Paging method from the Socrata API to retrieve the data in batches. By utilizing the $limit and $offset parameters, we can loop through the data in manageable chunks. For detailed information, refer to Socrata's [Paging through Data](https://dev.socrata.com/docs/paging.html) guide.
+
+Storing Data in DuckDB: After fetching each batch of data, we insert it into a [DuckDB](https://duckdb.org/) table. The first batch creates the table, and subsequent batches are appended to it until the batch size is less than the $limit parameter. Note that DuckDB creates a persistent database file that remains accessible even after the connection is closed. In this case, the size of the processed database file was 2.5GB, which is manageable given the dataset's size. DuckDB is simply awesome.
+
+Here is a code snippet demonstrating this process:
+
+```python
+with duckdb.connect(db_file) as con:
+    
+    while True:
+        
+        api_path = f"{api_base}?$limit={limit}&$offset={offset}&$order=:id"
+        log_message(f"Fetching data from: {api_path}")
+        
+        try:
+            df = pd.read_csv(api_path)
+            rows = df.shape[0]
+            
+            if offset == 0:
+                # Create the table if it's the first chunk
+                con.execute("CREATE TABLE trips AS SELECT * FROM df")
+            else:
+                # Insert data into the existing table
+                con.execute("INSERT INTO trips SELECT * FROM df")
+
+            if rows < limit:
+                # If fewer rows than limit, we are done
+                log_message("Finished processing all data.")
+                break
+
+            # Update offset for the next batch
+            offset += limit
+```
+
+The full code can be found in the [data-exporter.py](https://github.com/mebauer/mta-data/blob/main/data-exporter.py) file.
 
 # 3. Data
 The [MTA Subway Origin-Destination Ridership Estimate: 2023](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/uhf3-t34z/about_data) data was retrieved from the [New York Open Data Portal](https://data.ny.gov/).
