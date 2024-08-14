@@ -107,6 +107,7 @@ The [MTA Subway Origin-Destination Ridership Estimate: 2023](https://data.ny.gov
 From the MTA:
 - [Where is everybody on the subway going?](https://new.mta.info/article/where-everybody-subway-going)
 - [MTA Data and Analytics Blog](https://new.mta.info/taxonomy/term/11621)
+- [High Resolution Map of the NYC Subway (2024-08-12)](https://new.mta.info/map/5256)
 
 Yearly Ridership Recap:
 - [Subway and bus ridership for 2023](https://new.mta.info/agency/new-york-city-transit/subway-bus-ridership-2023)
